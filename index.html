@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <script src="./index.js"></script>
+    <form id="niceForm">
+      <div>
+        <label for="name">名前</label>
+        <input type="text" name="name" id="name" />
+      </div>
+
+      <div>
+        <label for="tel">電話番号</label>
+        <input type="tel" name="tel" id="tel" />
+      </div>
+
+      <div>
+        <label for="email">メールアドレス</label>
+        <input type="email" name="email" id="email" />
+      </div>
+
+      <div>
+        <label for="url">URL</label>
+        <input type="url" name="url" id="url" />
+      </div>
+
+      <div>
+        <label for="number">数字</label>
+        <input type="number" name="number" id="number" />
+      </div>
+
+      <div>
+        <label for="color">イメージカラー</label>
+        <input type="color" name="color" id="color" />
+      </div>
+
+      <div>
+        <label for="search">検索</label>
+        <input type="search" name="search" id="search" list="list" autocomplete="on" />
+      </div>
+
+      <datalist id="list">
+        <option value="nice"></option>
+        <option value="nice2"></option>
+        <option value="nice3"></option>
+        <option value="nice4"></option>
+      </datalist>
+
+      <div>
+        <label for="range">範囲</label>
+        <input type="range" name="range" id="range" />
+      </div>
+
+      <div>
+        <label for="select">選択</label>
+        <select name="select" id="select" multiple>
+          <option value="" selected></option>
+          <option value="value1">値1</option>
+          <option value="value2">値2</option>
+          <option value="value3">値3</option>
+          <option value="value4">値4</option>
+          <option value="value5">値5</option>
+          <option value="value6">値6</option>
+        </select>
+      </div>
+
+      <div>
+        <label for="datetime-local">日時</label>
+        <input type="datetime-local" name="datetime-local" id="datetime-local" />
+      </div>
+
+      <div>
+        <label for="date">日にち</label>
+        <input type="date" name="date" id="date" />
+      </div>
+
+      <div>
+        <label for="time">時間</label>
+        <input type="time" name="time" id="time" />
+      </div>
+
+      <div>
+        <label for="week">週</label>
+        <input type="week" name="week" id="week" />
+      </div>
+
+      <div>
+        <input type="reset" value="reset" />
+      </div>
+
+      <input type="submit" value="送信">
+    </form>
+  </body>
+
+</html>
