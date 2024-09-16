@@ -1,0 +1,32 @@
+#flex {
+  display: flex;
+  /* wrap指定で折り返し可能 */
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  /* 折り返し可能な要素に対し、縦方向をどう揃えるか(wrapが必須) */
+  align-content: flex-start;
+  gap: 10px;
+  height: 20vh;
+}
+
+#grid {
+  display: grid;
+  /* fr = fraction(分数) */
+  /* 固定幅のpxより比率のfrの方を使用するのが良さそう */
+  grid-template-columns: 1fr 1fr 1fr;
+
+  /* 1列ずつ、高さを指定 */
+  grid-template-rows: 100px 50px;
+  gap: 10px;
+}
+
+#grid-2 {}
+
+.box {
+  background-color: aquamarine;
+}
+
+.border {
+  width: 100vw;
+
+}

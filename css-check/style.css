@@ -1,0 +1,34 @@
+html {
+
+  /** default 16px **/
+  @media screen and (min-width:500px) {
+    font-size: 18px;
+  }
+
+  @media screen and (min-width:1000px) {
+    font-size: 20px;
+  }
+}
+
+body {
+  word-break: break-word;
+}
+
+p {
+  font-size: 1.2rem;
+}
+
+#section1 {
+  text-align: center;
+}
+
+
+#section2 {
+  text-align: justify;
+}
+
+#section3__box {
+  background-color: aqua;
+  /** 文章の余白は文字の1~1.5倍 **/
+  padding: 1rem;
+}
